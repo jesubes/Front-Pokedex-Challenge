@@ -57,8 +57,10 @@ Backend en Funcionamiento: Es indispensable que el servidor backend del proyecto
 2. Pasos de Instalación
 a. Clona el repositorio y navega a la carpeta del cliente:
 
-# git clone https://github.com/tu-usuario/pokedex-fullstack.git
-cd pokedex-fullstack/cliente
+# git clone https://github.com/jesubes/Front-Pokedex-Challenge.git
+
+cd Front-Pokedex-Challenge/frontPokedex
+
 
 b. Instala las dependencias del proyecto:
 
@@ -72,9 +74,8 @@ La aplicación necesita saber la URL de tu API backend. Crea un archivo llamado 
 # /cliente/.env
 
 # URL base de la API del backend que está corriendo localmente
-REACT_APP_API_URL=http://localhost:5000/api
+VITE_APP_API_BASE_URL=http://localhost:8800/api/
 
-React lee automáticamente las variables que comienzan con REACT_APP_.
 
 3. Ejecutar la Aplicación
 Una vez completada la configuración, inicia el servidor de desarrollo:
@@ -83,7 +84,7 @@ npm start
 
 (o yarn start)
 
-Esto abrirá la aplicación en tu navegador, generalmente en http://localhost:3000. 
+Esto abrirá la aplicación en tu navegador, generalmente en http://localhost:5173 
 
 📁 Estructura y Lógica del Proyecto
 La organización del código en src/ está diseñada para ser intuitiva y escalable.
