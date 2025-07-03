@@ -71,7 +71,7 @@ npm install
 c. Configura las Variables de Entorno:
 La aplicación necesita saber la URL de tu API backend. Crea un archivo llamado .env en la raíz de la carpeta /cliente y añade la siguiente línea:
 
-# /cliente/.env
+# /.env
 
 # URL base de la API del backend que está corriendo localmente
 VITE_APP_API_BASE_URL=http://localhost:8800/api/
