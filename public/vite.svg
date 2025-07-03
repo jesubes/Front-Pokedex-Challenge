@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular que simula una miniatura -->
+  <circle cx="100" cy="100" r="90" fill="#f5f5f5" stroke="#cccccc" stroke-width="4"/>
+  
+  <!-- Pokéball - parte superior -->
+  <circle cx="100" cy="80" r="50" fill="#ff0000" stroke="#000" stroke-width="4"/>
+  <!-- Pokéball - parte inferior -->
+  <circle cx="100" cy="80" r="50" fill="#ffffff" stroke="#000" stroke-width="4" clip-path="circle(50% at 50% 50%)"/>
+  
+  <!-- Línea divisoria -->
+  <line x1="50" y1="80" x2="150" y2="80" stroke="#000" stroke-width="4"/>
+  
+  <!-- Botón central -->
+  <circle cx="100" cy="80" r="15" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Texto -->
+  <text x="100" y="190" font-size="16" text-anchor="middle" fill="#333" font-family="Arial">Pokémon Project</text>
+</svg>
