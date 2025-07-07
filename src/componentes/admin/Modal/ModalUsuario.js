@@ -13,7 +13,7 @@ function ModalUsuario({ abierto, alCerrar, alEnviar, datosIniciales }) {
       nombre: datosIniciales?.nombre || '',
       email: datosIniciales?.email || '',
       password: '',
-      rol: datosIniciales?.rol || 'usuario'
+      rol: datosIniciales?.rol || 'viewer'
     });
   }, [datosIniciales, abierto]);
 
