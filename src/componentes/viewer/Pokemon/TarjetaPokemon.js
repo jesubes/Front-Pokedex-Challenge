@@ -3,8 +3,10 @@ import { capitalizarPrimeraLetra } from "../../../utilidades/capitalizarPalabra"
 
 export const TarjetaPokemon = ({ pokemon, seleccionar}) => {
 
+  
   return (
      <div
+      
       onClick={() => seleccionar(pokemon)}
       className="bg-gray-800 rounded-lg p-4 flex flex-col items-center justify-center text-center cursor-pointer hover:bg-gray-700 hover:scale-105 transition-transform duration-200 shadow-lg"
     >
